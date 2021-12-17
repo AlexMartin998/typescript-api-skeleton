@@ -1,5 +1,7 @@
 import { Application, Request, Response } from 'express';
 import express from 'express';
+
+import './db/db';
 import { setupMiddlewares } from './middlewares/setup.middleware';
 
 // Initializations:
