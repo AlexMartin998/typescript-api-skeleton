@@ -4,7 +4,7 @@ import request from 'supertest';
 import mongoose from 'mongoose';
 
 import app from '../src/app';
-import { server } from '../src';
+import { server } from '../src/server';
 
 const api = request(app);
 
