@@ -10,7 +10,7 @@ const api = request(app);
 
 describe('[ AUTH ]: Auth Test Suite', () => {
   test('1. should return 200 status code', async () => {
-    const resp = await api.get('/').send();
+    const resp = await api.get('/ping').send();
     expect(resp.status).toBe(200);
   });
 });
